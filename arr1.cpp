@@ -15,5 +15,7 @@ int main(){
     cout<<endl;
     int *ptr1=find(arr,arr+8,15);
     cout<<"Find the value after sorting : "<<(ptr1-arr)<<endl;
+    int n=count(arr,arr+8,15);
+    cout<<"Number count of 15 :"<<n<<endl;
     return 0;
 }
