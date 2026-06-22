@@ -16,10 +16,18 @@ int main(){
     }
     cout<<endl;
     sort(dest,dest+12,greater<int>());
+    cout<<"Accending order :"<<endl;
     for(int j=0;j<12;j++){
-        cout<<dest[j]<<" ";
+        cout<<dest[j]<<",";
     }
     cout<<endl;
+    sort(dest,dest+12,less<int>());
+    cout<<"Decending order :"<<endl;
+    for(int j=0;j<12;j++){
+        cout<<dest[j]<<",";
+    }
+    cout<<endl;
+
     return 0;
 
 
