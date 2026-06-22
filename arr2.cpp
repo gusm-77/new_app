@@ -11,6 +11,7 @@ int dest[12];
 
 int main(){
     merge(arr1,arr1+7,arr2,arr2+5,dest);
+    cout<<"Merge array :"<<endl;
     for( int j=0;j<12;j++){
         cout<<dest[j]<<" ";
     }
