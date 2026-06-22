@@ -1,5 +1,6 @@
 #include <iostream>
 #include <algorithm>
+#include <functional>
 
 using namespace std;
 
@@ -14,6 +15,12 @@ int main(){
         cout<<dest[j]<<" ";
     }
     cout<<endl;
+    sort(dest,dest+12,greater<int>());
+    for(int j=0;j<12;j++){
+        cout<<dest[j]<<" ";
+    }
+    cout<<endl;
     return 0;
+
 
 }
