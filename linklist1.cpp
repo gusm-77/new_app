@@ -74,6 +74,27 @@ class List{
         tail=temp;
 
     }
+    void insert(int val,int pos){
+        if(pos<0){
+            cout<<"Invalid  possition\n";
+            return;
+        }
+        if(pos==0){
+            push_fornt(val);
+            return;
+        }
+        Node *temp=head;
+        for(int i=0;i<pos-1;i++){
+            if(temp==NULL){
+                cout<<"Invalid possition\n"
+                return;
+            }
+            temp=temp->next;
+        }
+        Node *newNode=new Node(val);
+        newNode->next=temp->next;
+        temp->next=newNode;
+    }
 };
 int main(){
     List ll;
