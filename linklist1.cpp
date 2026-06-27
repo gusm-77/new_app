@@ -86,7 +86,7 @@ class List{
         Node *temp=head;
         for(int i=0;i<pos-1;i++){
             if(temp==NULL){
-                cout<<"Invalid possition\n"
+                cout<<"Invalid possition\n";
                 return;
             }
             temp=temp->next;
@@ -107,8 +107,10 @@ int main(){
 
     ll.push_back(0);
 
-    ll.pop_back();
-    ll.pop_fornt();
+    //ll.pop_back();
+    //ll.pop_fornt();
+
+    ll.insert(5,0);
 
     ll.printll();
 }
