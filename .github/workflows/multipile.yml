@@ -6,7 +6,7 @@ jobs:
   steps:
     -  name: Multipile commant
        run: |
-       echo "Multiple Documents"
-       echo "Single Documents"
-       echo "Visual Separation"
-       echo "Best pactics"
+        echo "Multiple Documents"
+        echo "Single Documents"
+        echo "Visual Separation"
+        echo "Best pactics"
