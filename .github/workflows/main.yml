@@ -1,0 +1,25 @@
+name: Git CI/CD
+on: workflow_dispatch
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Build Step
+        run: echo "A demo build"
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Test Phase
+        run: |
+         echo "Runing step1"
+         echo "Runing step2"
+         echo "Runing step3"
+  deploy:
+   runs-on:  ubuntu-latest
+   steps:
+     - name: Deploying Step
+       run: |
+        echo "Deployig on "
+  
+   
+  
