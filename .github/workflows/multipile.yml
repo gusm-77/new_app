@@ -1,0 +1,12 @@
+name: GitHub work
+on: workflow_dispatch
+jobs:
+ multi_run:
+  runs-on: ubuntu-latest
+  steps:
+    -  name: Multipile commant
+       run: |
+       echo "Multiple Documents"
+       echo "Single Documents"
+       echo "Visual Separation"
+       echo "Best pactics"
