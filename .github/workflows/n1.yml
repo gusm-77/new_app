@@ -1,0 +1,8 @@
+name: Walecome to git action
+on: workflow_dispatch
+jobs:
+  hello:
+    runs-on: ubuntu-latest
+    steps:
+     - name: CI/CD
+       run: echo "Walecome to gitHub action"
